@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view_timerInDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="32dp"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="60sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDetailInDetail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_start_pauseInDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_timerInDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="29dp"
+        android:text="@string/start"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/text_view_timerInDetail"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_timerInDetail" />
+
+    <Button
+        android:id="@+id/button_resetInDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_timer"
+        android:layout_toEndOf="@+id/button_start_pauseInDetail"
+        android:text="@string/reset"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/button_start_pauseInDetail"
+        app:layout_constraintTop_toBottomOf="@+id/button_start_pauseInDetail"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/NombreInDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="54dp"
+        android:text="@string/actividad"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/NombreActividadInDetail"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ZonaInDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/zona_que_est_s_entrenando"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreInDetail" />
+
+    <TextView
+        android:id="@+id/Tiempo_RepeticionInDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/ejercitalo_en"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tiempo_repeticion_a_ejercitarInDetail"
+        app:layout_constraintTop_toBottomOf="@+id/ZonaInDetail" />
+
+    <TextView
+        android:id="@+id/min_repInDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/min_rep"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tiempo_repeticion_a_ejercitarInDetail"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDetailInDetail" />
+
+    <TextView
+        android:id="@+id/tiempo_repeticion_a_ejercitarInDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="@string/edit"
+        app:layout_constraintEnd_toEndOf="@+id/ZonaInDetail"
+        app:layout_constraintTop_toBottomOf="@+id/ZonaInDetail" />
+
+    <ImageView
+        android:id="@+id/imageViewDetailInDetail"
+        android:layout_width="76dp"
+        android:layout_height="63dp"
+
+        android:layout_marginStart="61dp"
+        app:layout_constraintStart_toEndOf="@+id/ZonaInDetail"
+        app:layout_constraintTop_toBottomOf="@+id/NombreActividadInDetail"
+        app:srcCompat="@drawable/logoandroid" />
+
+    <TextView
+        android:id="@+id/NombreActividadInDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="62dp"
+        android:text="editalo"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewDetailInDetail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

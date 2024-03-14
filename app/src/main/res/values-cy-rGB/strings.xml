@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sportivity</string>
+    <string name="play_button_description">Reproducir</string>
+    <string name="next_button_description">Siguiente</string>
+    <string name="start">start</string>
+    <string name="reset">rested</string>
+    <string name="zona_que_est_s_entrenando">Body Area</string>
+    <string name="actividad">"Activity: "</string>
+    <string name="ejercitalo_en">exercise it in</string>
+    <string name="min_rep">min_rep</string>
+    <string name="edit">edit</string>
+    <string name="anadir_activdad_personalizada">Add custom activity</string>
+    <string name="rep_min">Rep/Min</string>
+    <string name="nombre">Name:</string>
+    <string name="zona_entreno">Body Area</string>
+    <string name="a_adir">ADD</string>
+    <string name="actividades">Activities</string>
+    <string name="tiempo_en_tu_zona">WEATHER ⛅</string>
+    <string name="tus_actividades">Your Activities</string>
+    <string name="haces_deporte_al_aire_libre">Do you do sports outdoors?</string>
+    <string name="humedad">Humity</string>
+    <string name="presi_n">Pressure</string>
+    <string name="velocidad_viento">Speed Wind</string>
+    <string name="min_temperatura">Min Temperature</string>
+    <string name="max_temperatura">Max Temprature</string>
+    <string name="sin_nombre">No name</string>
+    <string name="sin_zona">No zone</string>
+    <string name="Start">Start</string>
+    <string name="Pause">Pause</string>
+    <string name="minutos">Minutes</string>
+    <string name="repeticiones">repetitions</string>
+</resources>

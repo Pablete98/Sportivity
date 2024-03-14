@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pablo.armario.sportivity.antonio.armario.sportivity.MainActivity">
+    <item
+        android:id="@+id/Reset_Activities"
+        android:orderInCategory="100"
+        android:title="Resetear mis actividades"
+        app:showAsAction="never" />
+</menu>

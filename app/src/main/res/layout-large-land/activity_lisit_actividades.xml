@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="1439dp"
+        android:layout_height="1700dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondolayout" />
+
+    <LinearLayout
+        android:layout_width="1275dp"
+        android:layout_height="789dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253">
+
+
+        <!--<androidx.fragment.app.FragmentContainerView
+            android:id="@+id/activity_detail_container"
+            android:layout_width="907dp"
+            android:layout_height="81dp"
+            android:layout_weight="3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <include
+            layout="@layout/activity_detail"
+            android:layout_width="912dp"
+            android:layout_height="763dp" />-->
+
+
+        <LinearLayout
+            android:layout_width="573dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/reciclerViewPre"
+                android:layout_width="match_parent"
+                android:layout_height="657dp"
+
+                tools:listitem="@layout/activity_pre_cardview">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="563dp"
+                android:layout_height="96dp"
+                android:text="@string/anadir_activdad_personalizada" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentContainerViewDetail_Activity"
+            android:name="antonio.david.sportivity.Activity_DetailFragment"
+            android:layout_width="830dp"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

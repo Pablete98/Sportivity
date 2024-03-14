@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Sportivity</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+    <string name="play_button_description">Reproducir</string>
+    <string name="next_button_description">Siguiente</string>
+
+    <!-- Array para la lista de canciones -->
+    <string-array name="song_names">
+        <item>Canción 1</item>
+        <item>Canción 2</item>
+        <item>Canción 3</item>
+    </string-array>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="start">start</string>
+    <string name="reset">reset</string>
+    <string name="zona_que_est_s_entrenando">Zona que estás entrenando</string>
+    <string name="actividad">Actividad</string>
+    <string name="ejercitalo_en">Ejercitalo en:</string>
+    <string name="min_rep">min_rep</string>
+    <string name="edit">edit</string>
+    <string name="anadir_activdad_personalizada">Añadir Actividad personalizada</string>
+    <string name="rep_min">Rep/Min</string>
+    <string name="nombre">Nombre:</string>
+    <string name="zona_entreno">Zona entreno:</string>
+    <string name="a_adir">AÑADIR</string>
+    <string name="actividades">Actividades</string>
+    <string name="tiempo_en_tu_zona">Tiempo en tu zona ⛅</string>
+    <string name="tus_actividades">Tus Actividades</string>
+    <string name="haces_deporte_al_aire_libre">¿Haces deporte al aire libre?</string>
+    <string name="humedad">Humedad</string>
+    <string name="presi_n">Presión</string>
+    <string name="velocidad_viento">Velocidad Viento</string>
+    <string name="min_temperatura">Min Temperatura</string>
+    <string name="max_temperatura">Max Temperatura</string>
+    <string name="sin_nombre">Sin nombre</string>
+    <string name="sin_zona">sin zona</string>
+    <string name="Start">Start</string>
+    <string name="Pause">Pause</string>
+    <string name="minutos">Minutos</string>
+    <string name="repeticiones">Repeticiones</string>
+
+    <string-array name="zonas_array">
+        <item>Brazos</item>
+        <item>Piernas</item>
+        <item>Abdomen</item>
+    </string-array>
+
+    <string-array name="tiempo_array">
+        <item>Min</item>
+        <item>Rep</item>
+    </string-array>
+
+</resources>
